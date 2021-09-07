@@ -30,6 +30,7 @@ public class PracticeString {
         Assert.assertEquals(name.indexOf("y"),17);
         Assert.assertEquals(name.toLowerCase().trim().contains("its"),true);
         Assert.assertTrue(name.toLowerCase().trim().contains("its"));
+        Assert.assertEquals(name.toLowerCase().trim().contains("nothing"), false);
     }
 
     @Test(priority = 2)
